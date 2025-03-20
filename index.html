@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sai Venkata Madhu Water Servicing Center</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="./images/logo.webp">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&family=Playwrite+AU+VIC+Guides&family=Playwrite+IE+Guides&family=Satisfy&family=Yellowtail&display=swap');
+        /* Custom styling */
+        .navbar {
+            background-color: lightseagreen; 
+    
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important; 
+            font-size: 25px;
+            font-weight: 300;
+        }
+        .nav-link:hover {
+            color: #ffc107 !important;
+        }
+       
+        .navbar-brand{
+            font-family: "Yellowtail", cursive;
+            font-weight: 400;
+            font-style: normal;
+        }
+        /* Caurosel Image Styling */
+
+        .carousel-item img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            opacity: 0.9;
+        }
+        h5,p{
+            font-family: "Outfit", sans-serif;
+            color: darkcyan;
+            font-size: 20px;
+
+        }
+        ul li{
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Bootstrap Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <img src="./images/logo.webp" alt="" width="50" height="50" style="border-radius: 50%;">&nbsp;&nbsp;
+        <a class="navbar-brand" href="#">Sai Venkata Madhu <br>Water Servicing Center</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Bootstrap Carousel -->
+<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5"></button>
+    </div>
+
+    <!-- Carousel Items with Different Slide Times -->
+<div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="2000"> <!-- 2 seconds -->
+        <img src="./images/carwashimage.jpg" class="d-block w-100" alt="Car Wash Service">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Professional Car Wash</h5>
+            <p>Experience the best car wash with high-pressure cleaning and premium foam treatment.</p>
+        </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="4000"> <!-- 4 seconds -->
+        <img src="./images/bikewash.jpg" class="d-block w-100" alt="Bike Wash">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Bike Wash & Detailing</h5>
+            <p>Keep your bike shining with our deep-clean bike washing and detailing service.</p>
+        </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000"> <!-- 3 seconds -->
+        <img src="./images/foam-washing.jpg" class="d-block w-100" alt="Foam Washing">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Advanced Foam Washing</h5>
+            <p>Thorough foam wash to remove dirt and grime without damaging your vehicle’s paint.</p>
+        </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="4000"> <!-- 4 seconds -->
+        <img src="./images/foamwashbike.jpg" class="d-block w-100" alt="Foam Bike Wash">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Foam Wash for Bikes</h5>
+            <p>Protect your bike’s finish with our gentle yet effective foam wash process.</p>
+        </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000"> <!-- 3 seconds -->
+        <img src="./images/matwash.jpg" class="d-block w-100" alt="Car Mat Washing">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Car Mat Cleaning</h5>
+            <p>Thorough washing and sanitization of car mats for a fresh and clean interior.</p>
+        </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000"> <!-- 3 seconds -->
+        <img src="./images/vacum.jpg" class="d-block w-100" alt="Car Vacuum Cleaning">
+        <div class="carousel-caption d-none d-md-block">
+            <h5>Interior Vacuum Cleaning</h5>
+            <p>Get rid of dust and debris with deep vacuum cleaning for a spotless car interior.</p>
+        </div>
+    </div>
+
+    <!-- Previous/Next Controls -->
+<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" style="background-color: darkcyan;border-radius: 50px;padding: 20px;"></span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" style="background-color: darkcyan;border-radius: 50px;padding: 20px;"></span>
+</button>
+</div>
+</div>
+
+
+
+
+
+
+<!-- About Us Section -->
+ <div id="about"></div>
+<div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="./images/vehicalwash.jpg" class="img-fluid rounded shadow" alt="Vehicle Wash">
+        </div>
+        <div class="col-md-6">
+            <h2 class="text-primary fw-bold">About Us</h2>
+            <p class="text-muted">Welcome to <strong>Sai Venkata Madhu Water Servicing</strong>, your trusted destination for **professional vehicle cleaning and water servicing**. We specialize in eco-friendly, **high-quality washing solutions** for all types of vehicles, ensuring they look brand new.</p>
+
+            <h4 class="mt-3">Why Choose Us?</h4>
+            <ul class="list-unstyled">
+                <li>✅ <strong>Advanced Cleaning:</strong> High-pressure washing, premium foam, and deep cleaning.</li>
+                <li>✅ <strong>Eco-Friendly Methods:</strong> Water-efficient techniques to minimize waste.</li>
+                <li>✅ <strong>Comprehensive Cleaning:</strong> Exterior wash, interior vacuuming, and detailing.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Services Section -->
+<div id="services"></div>
+<div class="container my-5">
+    <h2 class="text-center text-primary fw-bold">Our Services</h2>
+    <div class="row text-center mt-4">
+        <div class="col-md-4">
+            <img src="./images/service1.jpg" class="img-fluid rounded shadow" alt="Car Wash">
+            <h5 class="mt-2">🚗 Car Wash & Detailing</h5>
+            <p>Exterior & interior cleaning, Washing, and polishing for a spotless car.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="./images/service2.webp" class="img-fluid rounded shadow" alt="Bike Wash">
+            <h5 class="mt-2">🏍️ Bike Wash & Protection</h5>
+            <p>Foam wash, chain lubrication, and detailing for motorcycles.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="./images/service3.jpg" class="img-fluid rounded shadow" alt="Truck Wash">
+            <h5 class="mt-2">🚛 Truck & Commercial Vehicle Wash</h5>
+            <p>Heavy-duty cleaning for trucks, buses, and JCB vehicles.</p>
+        </div>
+    </div>
+
+    <div class="row text-center mt-4">
+        <div class="col-md-4">
+            <img src="./images/service4.jpg" class="img-fluid rounded shadow" alt="Auto Wash">
+            <h5 class="mt-2">🛺 Auto Rickshaw Cleaning</h5>
+            <p>Quick and effective cleaning for autos and three-wheelers.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="./images/sevice5.jpg" class="img-fluid rounded shadow" alt="Tractor Wash">
+            <h5 class="mt-2">🚜 Tractor & Agricultural Vehicle Wash</h5>
+            <p>Deep cleaning for tractors and farm vehicles.</p>
+        </div>
+        <div class="col-md-4">
+            <img src="./images/ser6.jpg" class="img-fluid rounded shadow" alt="Interior Cleaning">
+            <h5 class="mt-2">🧼 Interior Vacuum Cleaning</h5>
+            <p>Thorough vacuuming and sanitization for a clean interior.</p>
+        </div>
+    </div>
+</div>
+
+<!-- What We Include Section -->
+<div class="container my-5">
+    <h2 class="text-center text-primary fw-bold">What We Include in Our Wash</h2>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <h5>🚗 Car Wash</h5>
+            <ul>
+                <li>✅ High-pressure exterior wash</li>
+                <li>✅ Foam cleaning & Washing</li>
+                <li>✅ Tire and rim cleaning</li>
+                <li>✅ Interior vacuuming</li>
+                <li>✅ Window & mirror cleaning</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h5>🏍️ Bike Wash</h5>
+            <ul>
+                <li>✅ High-pressure foam wash</li>
+                <li>✅ Engine degreasing</li>
+                <li>✅ Seat & body cleaning</li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h5>🚛 Truck & Heavy Vehicle Wash</h5>
+            <ul>
+                <li>✅ High-pressure wash for large vehicles</li>
+                <li>✅ Underbody deep cleaning</li>
+                <li>✅ Tire & wheel cleaning</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h5>🛺 Auto Rickshaw Wash</h5>
+            <ul>
+                <li>✅ Exterior & interior cleaning</li>
+                <li>✅ Seat & floor mat cleaning</li>
+                <li>✅ Glass & mirror cleaning</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+            <h5>🚜 Tractor & Farm Vehicle Wash</h5>
+            <ul>
+                <li>✅ High-pressure wash for mud removal</li>
+                <li>✅ Underbody and engine bay cleaning</li>
+                <li>✅ Seat and dashboard dusting</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact"></div>
+<div class="container text-center my-5">
+    <h2 class="text-primary fw-bold">Contact Us</h2>
+    <p>📞 <strong>Call Us:</strong> +91 7095854216 | 🌐 <strong>Website:</strong> saivenkatamadhuwaterservicing.com</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.9461957746194!2d78.93424207488897!3d15.379399985204554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb4e7006d81f84b%3A0x7ab77150743bc6b0!2sSai%20Venkata%20Madhu%20Water%20Servicing%20Center!5e0!3m2!1sen!2sin!4v1742466946538!5m2!1sen!2sin" style="border:0;width: 100%;height: 450px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<!-- Footer Section -->
+<footer class="bg-dark text-light" style="padding: 80px;">
+    <div class="container">
+        <div class="row">
+            <!-- Logo & About -->
+            <div class="col-md-3">
+                <img src="./images/logo.webp" alt="Company Logo" class="img-fluid mb-2" style="width: 120px;border-radius: 50%;">
+                <p>Sai Venkata Madhu Water Servicing Center</p>
+            </div>
+
+            <!-- Working Hours -->
+            <div class="col-md-3">
+                <h5 class="text-warning">⏰ Working Hours</h5>
+                <p>Monday - Friday: 6:00 AM - 7:00 PM</p>
+                <p>Saturday - Sunday: 6:00 AM - 7:00 PM</p>
+            </div>
+
+            <!-- Services -->
+            <div class="col-md-3">
+                <h5 class="text-warning">🚗 Our Services</h5>
+                <ul class="list-unstyled">
+                    <li style="color: darkcyan;">✅ Car Wash & Detailing</li>
+                    <li style="color: darkcyan;">✅ Bike Wash & Protection</li>
+                    <li style="color: darkcyan;">✅ Truck & Heavy Vehicle Cleaning</li>
+                    <li style="color: darkcyan;">✅ Auto & Tractor Wash</li>
+                    <li style="color: darkcyan;">✅ Interior Vacuum Cleaning</li>
+                </ul>
+            </div>
+
+            <!-- Contact Information -->
+            <div class="col-md-3">
+                <h5 class="text-warning">📞 Contact Us</h5>
+                <p><strong>Business Address:</strong> Giddalur, AndhraPradesh-523357.</p>
+                <p><strong>Phone:</strong> +91 7095854216.</p>
+                <p><strong>Email:</strong> <span style="font-size: 16px;">saivenkatamadhuwaterservicing@gmail.com</span></p>
+                <h6 class="mt-3">Follow Us:</h6>
+                <a href="https://www.facebook.com/" target="_blank" class="text-light me-2"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://accounts.google.com/v3/signin/identifier?ifkv=AXH0vVv3kUjQfsC0clfvtz9MWgHbt7KELMMj9cfLQ2Yl-86dV8QjzSX3AjNTVQuN3BUmoE_HOnox6A&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1260565963%3A1742469169635755" target="_blank" class="text-light me-2"><i class="fa-brands fa-google"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" class="text-light"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <!-- Copyright Notice -->
+        <div class="text-center mt-4">
+            <p class="mb-0">© <script>document.write(new Date().getFullYear());</script> Sai Venkata Madhu Water Servicing Center. All Rights Reserved.</p>
+        </div>
+    </div>
+    
+</footer>
+
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
